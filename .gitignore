@@ -1,0 +1,24 @@
+# Build outputs
+build/
+*.o
+*.a
+*.so
+*.vst3/
+
+# Python environments, bytecode, and audio datasets
+ml_training/.venv/
+ml_training/dataset/
+__pycache__/
+*.pyc
+*.pyo
+
+# Audio captures and temporary scratch files
+*.wav
+*.f32
+*.raw
+
+# IDE / OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
